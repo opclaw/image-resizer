@@ -3,6 +3,9 @@ import './globals.css'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://image-resizer.vercel.app'),
+  alternates: {
+    canonical: 'https://image-resizer.vercel.app',
+  },
   title: 'Image Resizer — Resize Images Online | Free Tool',
   description: 'Resize images online for free. Change width, height, and maintain aspect ratio.',
   keywords: ['image resizer', 'resize image', 'image size', 'resize photos'],
