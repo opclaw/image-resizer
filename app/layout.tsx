@@ -17,11 +17,13 @@ export const metadata: Metadata = {
     siteName: 'Image Resizer',
     title: 'Image Resizer — Resize Images Online',
     description: 'Resize images online for free.',
+    images: ['/og-image.svg'],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Image Resizer',
     description: 'Resize images online for free.',
+    images: ['/og-image.svg'],
   },
   robots: { index: true, follow: true },
 }
